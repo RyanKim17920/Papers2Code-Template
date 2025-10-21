@@ -1,71 +1,53 @@
 # {{PAPER_TITLE}}
 
-Implementation of "{{PAPER_TITLE}}"
+This repository contains an implementation of the paper "{{PAPER_TITLE}}".
 
-## Paper Information
+> **Note:** This template is primarily designed for Machine Learning papers, but can be adapted for other domains. You may need to modify files like `src/model.py`, the `Results & Status` section, and the dependencies in `requirements.txt`.
 
-**Authors:** {{AUTHORS_LIST}}
+## Paper Details
 
-**Links:** [arXiv]({{ARXIV_URL}}) • [PDF]({{PDF_URL}}) • [Papers2Code]({{PAPERS2CODE_URL}})
-
-**Abstract:**
-{{PAPER_ABSTRACT}}
+- **Authors:** {{AUTHORS_LIST}}
+- **Abstract:** {{PAPER_ABSTRACT}}
+- **Links:**
+    - [Abstract]({{ABSTRACT_URL}})
+    - [Papers2Code]({{PAPERS2CODE_URL}})
 
 ## Getting Started
 
-```bash
-# Using uv (recommended)
-uv venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-uv pip install -r requirements.txt
+1.  **Set up the environment:**
 
-# Or using pip
-pip install -r requirements.txt
-```
+    ```bash
+    # Using pip
+    python -m venv .venv
+    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+    pip install -r requirements.txt
 
-## Usage
+    # Or using uv (a faster alternative)
+    uv venv
+    source .venv/bin/activate
+    uv pip install -r requirements.txt
+    ```
 
-<!-- Document how to use your implementation -->
+2.  **Run the code:**
 
-```bash
-# Example usage
-python demo.py
+    *(The author of this implementation should document usage instructions here.)*
 
-# If you trained a model, add training/evaluation commands:
-# python train.py
-# python evaluate.py
-```
+    ```bash
+    # Example: Run a demo
+    # python demo.py
 
-## Results
+    # Example: Train the model
+    # python train.py
+    ```
 
-<!-- If you trained the model, compare with the paper -->
-<!-- Otherwise, document what you implemented and verified -->
+## Results & Status
 
-| Metric | Paper | This Implementation |
-|--------|-------|-------------------|
-|        |       |                   |
-
-## Limitations & Assumptions
-
-<!-- Document any differences from the paper, simplifications, or known issues -->
-<!-- Examples:
-- "Did not train the full model due to computational constraints"
-- "Implemented architecture only, no training code"
-- "Used approximation X instead of exact method from paper"
--->
-
-- 
-- 
+*(The author should update this section with their results or the current implementation status.)*
 
 ## Implementation Notes
 
-<!-- Additional details about your approach, decisions, and findings -->
-
-## Citation
-
-```bibtex
-{{CITATION_BIBTEX}}
-```
+*(The author should add any relevant notes about their implementation approach, assumptions, or limitations here.)*
 
 ---
-*Template from [Papers2Code](https://papers2code.org)*
+
+*This implementation was created using the [Papers2Code Template](https://github.com/papers2code/papers2code-template). For instructions on how to contribute, see the `CONTRIBUTING.md` file.*
