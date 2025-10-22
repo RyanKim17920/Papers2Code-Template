@@ -1,16 +1,14 @@
 # {{PAPER_TITLE}}
+**Authors:** {{AUTHORS_LIST}}
 
-This repository contains an implementation of the paper "{{PAPER_TITLE}}".
+ [Abstract]({{ABSTRACT_URL}}) | [Papers2Code]({{PAPERS2CODE_URL}}) | (other links)
+
+**Abstract:** *{{PAPER_ABSTRACT}}*
+
+
+This repository contains an unofficial implementation of the paper "{{PAPER_TITLE}}".
 
 > **Note:** This template is primarily designed for Machine Learning papers, but can be adapted for other domains. You may need to modify files like `src/model.py`, the `Results & Status` section, and the dependencies in `requirements.txt`.
-
-## Paper Details
-
-- **Authors:** {{AUTHORS_LIST}}
-- **Abstract:** {{PAPER_ABSTRACT}}
-- **Links:**
-    - [Abstract]({{ABSTRACT_URL}})
-    - [Papers2Code]({{PAPERS2CODE_URL}})
 
 ## Getting Started
 
@@ -50,4 +48,4 @@ This repository contains an implementation of the paper "{{PAPER_TITLE}}".
 
 ---
 
-*This implementation was created using the [Papers2Code Template](https://github.com/papers2code/papers2code-template). For instructions on how to contribute, see the `CONTRIBUTING.md` file.*
+*This implementation was created using the [Papers2Code Template](https://github.com/ryankim17920/papers2code-template). For instructions on how to contribute, see the `CONTRIBUTING.md` file.*
